@@ -34,24 +34,11 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Container(
-          width: 200,
-          height: 50,
-          alignment: Alignment.center,
-          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                const Color.fromARGB(255, 23, 165, 232),
-                const Color.fromARGB(255, 146, 208, 250),
-              ], // สีที่คุณต้องการ
-            ),
-            borderRadius: BorderRadius.circular(8),
-          ),
           child: const Text(
             'My Resume',
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.white, // ให้เห็นชัดบนพื้นสีเข้ม
+              color: Color.fromARGB(255, 0, 0, 0), // ให้เห็นชัดบนพื้นสีเข้ม
             ),
           ),
         ),
